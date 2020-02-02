@@ -76,7 +76,7 @@ POST http://127.0.0.1:8000/api/
 | remove_retweet | optional | **remove_retweet** adalah fitur untuk menghapus retweet|
 | remove_punctuation | optional | **remove_punctuation** adalah fitur untuk menghapus tanda baca|
 | remove_add_space | optional | **remove_add_space** adalah fitur untuk menghapus spasi berlebih|
-| case_folding | optional | **case_folding ** adalah fitur untuk mungubah kata / kalimat menjadi huruf kecil atau huruf besar semua|
+| case_folding | optional | **case_folding** adalah fitur untuk mungubah kata / kalimat menjadi huruf kecil atau huruf besar semua|
 | remove_repeated_character | optional | **remove_repeated_character** adalah fitur untuk menghapus karakter yang sama dan berulang|
 ### Result
 | Parameters | Deskripsi |
