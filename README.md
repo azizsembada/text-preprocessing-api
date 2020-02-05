@@ -65,6 +65,7 @@ POST http://127.0.0.1:8000/api/
 | content | required | **content** adalah text yang akan di preprocessing |
 | access_token | required | **access_token** adalah token yang digunakan agar dapat mengakses service |
 | access_token_secret | required | **access_token_secret** adalah token yang digunakan agar dapat mengakses service |
+| remove_stopword | optional | **remove_stopword** adalah fitur untuk menghapus kata stopword|
 | normalize_slang_word | optional | **normalize_slang_word** adalah fitur untuk menormalisasi kata slang|
 | remove_sentence | optional | **remove_sentence** adalah fitur untuk menghapus kalimat|
 | remove_url | optional | **remove_url** adalah fitur untuk menghapus URL|
@@ -96,6 +97,7 @@ POST http://127.0.0.1:8000/api/
     "remove_digit":"1",
     "remove_non_ascii":"1",
     "remove_html":"1",
+    "remove_stopword":"1",
     "remove_mention":"1",
     "remove_hashtag":"1",
     "remove_retweet":"1",
